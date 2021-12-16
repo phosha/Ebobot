@@ -1,5 +1,5 @@
 <launch>
-<arg name="model" default="$(find turtlebro)/urdf/turtlebro.urdf"/>
+<arg name="model" default="$(find robobot1)/urdf/1robobot.urdf"/>
 <arg name="ard_port" default="/dev/ttyACM0"/>
 <arg name="run_rviz" default="true"/>
 	<node pkg="rosserial_arduino" type="serial_node.py" name="rosserial_arduino" respawn="true" output="screen">
