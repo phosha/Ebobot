@@ -1,0 +1,17 @@
+<package>
+  <description brief="odom_node">
+
+     odom_node
+
+  </description>
+  <author>admi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/odom_node</url>
+  <depend package="std_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
