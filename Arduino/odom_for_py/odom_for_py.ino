@@ -10,16 +10,14 @@ MPU6050 mpu(Wire);
 #include <geometry_msgs/Twist.h>
 #include <geometry_msgs/Vector3.h>
 
-class NewHardware : public ArduinoHardware
-{
-  public:
-  NewHardware():ArduinoHardware(&Serial1, 57600){};
-};
-
-ros::NodeHandle_<NewHardware, 5, 5, 256, 256>  nh;
-
-
-//ros::NodeHandle_<ArduinoHardware, 5, 5, 256, 256> nh;
+ros::NodeHandle_<ArduinoHardware, 5, 5, 256, 256> nh;
+////Переключение на другой сериал
+//class NewHardware : public ArduinoHardware
+//{
+//  public:
+//  NewHardware():ArduinoHardware(&Serial1, 57600){};
+//};
+//ros::NodeHandle_<NewHardware, 5, 5, 256, 256>  nh;
 
 
 
