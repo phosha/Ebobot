@@ -1,13 +1,13 @@
 <package>
-  <description brief="odom_node">
+  <description brief="robobot1">
 
-     odom_node
+     robobot1
 
   </description>
   <author>admi</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/odom_node</url>
+  <url>http://ros.org/wiki/robobot1</url>
   <depend package="std_msgs"/>
   <depend package="nav_msgs"/>
   <depend package="geometry_msgs"/>
