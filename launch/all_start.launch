@@ -1,5 +1,5 @@
 <launch>
-<arg name="model" default="$(find robobot1)/urdf/1robobot.urdf"/>
+<arg name="model" default="$(find ebobot)/urdf/1robobot.urdf"/>
 <arg name="ard_port" default="/dev/ttyACM0"/>
 <arg name="run_rviz" default="true"/>
 	<node pkg="rosserial_arduino" type="serial_node.py" name="rosserial_arduino" respawn="true" output="screen">
@@ -7,5 +7,5 @@
 	</node>
 <param name="robot_description" command="cat $(arg model)"/>
 <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
-<node pkg="rviz" type="rviz" name="rviz" output="screen" args='-d $(find odom_node)/conf.rviz'/>
+<node pkg="rviz" type="rviz" name="rviz" output="screen" args='-d $(find ebobot)/rviz/conf.rviz'/>
 </launch>

@@ -1,17 +1,19 @@
 <package>
-  <description brief="robobot1">
+  <description brief="ebobot">
 
-     robobot1
+     ebobot
 
   </description>
-  <author>admi</author>
+  <author>Phosha</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/robobot1</url>
+  <url>http://ros.org/wiki/ebobot</url>
   <depend package="std_msgs"/>
   <depend package="nav_msgs"/>
   <depend package="geometry_msgs"/>
   <depend package="rospy"/>
   <depend package="roscpp"/>
+  <depend package="rosserial_arduino"/>
+<depend package="robot_state_publisher"/>
 
 </package>
